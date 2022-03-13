@@ -10,16 +10,24 @@
 body{
     font-family: 'Fredoka', sans-serif;
 }
+header{
+    height: 32px;
+}
+section{
+    /* margin-bottom: 100px; */
+    height: 90vh;
+}
 
 .navbar-title{
     font-weight: 600;
 }
 .join-us-section{
-    /* display: flex;
-    justify-content: space-between; */
-    /* align-items: center; */
+    background-color: #b9fbc0;
 }
-
+.left-side{
+    margin-left: 100px;
+    width: 40%;
+}
 .left-side h1{
     font-size: 55px;
     line-height: 120%;
@@ -31,7 +39,7 @@ body{
     margin-bottom: 30px;
 }
 .right-side img{
-    width: 85%;
+    width: 75%;
 }
 
 
