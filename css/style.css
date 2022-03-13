@@ -1,0 +1,46 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
+
+*,
+::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.navbar-title{
+    font-weight: 600;
+}
+.join-us-section{
+    /* display: flex;
+    justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.left-side h1{
+    font-size: 55px;
+    line-height: 120%;
+    letter-spacing: 3px;
+    margin: 20px 0 50px 0;
+}
+.left-side h5{
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.right-side img{
+    width: 85%;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .join-us-section{
+        flex-direction: column-reverse;
+    }
+    .right-side img{
+        margin-bottom: 30px;
+    }
+}
