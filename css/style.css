@@ -32,14 +32,58 @@ section{
     font-size: 55px;
     line-height: 120%;
     letter-spacing: 3px;
-    margin: 20px 0 50px 0;
+    margin: 0 0 50px 0;
 }
 .left-side h5{
     font-weight: 400;
     margin-bottom: 30px;
 }
+.left-side span{
+    color: #21B573;
+}
 .right-side img{
     width: 75%;
+    margin-left: 125px;
+}
+
+.get-started-section{
+    background-color: #F0FFF0;
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+.custom-btn{
+    background-color: #21B573;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    padding: 12px 36px 12px 36px;
+    border-radius: 33px;
+}
+/* .left-side-elements{
+    
+} */
+.illustrate-img{
+    width: 100%;
+}
+
+.topic-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: auto;
+}
+.topic-section div{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.topic-section div h5,p{
+    text-align: center;
+}
+.topic-section img{
+    width: 70px;
+    margin: 0 0 20px 80px;
 }
 
 
